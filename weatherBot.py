@@ -1,6 +1,6 @@
 import six
 from errbot import BotPlugin, botcmd
-from errbot.utils import ValidationException
+from errbot import ValidationException
 from itertools import chain
 from six.moves.urllib.error import HTTPError
 import weather
